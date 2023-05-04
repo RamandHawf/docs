@@ -1,17 +1,19 @@
 .menu {
-  background-color: $light-bg;
+  // background-color: $light-bg;
+  background-color: #1b192f;
+
   border-right: 1px solid $border;
 
   .menu__link {
     font-family: 'Gotham';
     font-size: 16px;
     line-height: 21px;
-    color: $light-primary;
+    color: white;
 
     &--active {
       font-weight: 500;
       font-size: 16px;
-      color: $light-primary !important;
+      // color: white;
       font-weight: 600;
 
       &:not(.menu__link--sublist) {
@@ -48,7 +50,7 @@ li[class*=' theme-doc-sidebar-item-'] {
   &[class*='-level-2'] {
     a.menu__link {
       font-size: 13px;
-      color: $inactive-menu-item;
+      color: white;
     }
 
     [class*='caret'] {

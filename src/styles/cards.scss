@@ -1,16 +1,22 @@
 $font-family_1: 'Gotham';
 
 .cards {
+  // background-color: #1b192f;
+
   display: grid;
   grid-gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-auto-rows: 1fr;
 
   img {
+    // background-color: #1b192f;
+    
     width: 39.1px;
   }
 
   .text-container {
+    // background-color: #1b192f;
+// 
     max-width: 200px;
   }
 

@@ -9,7 +9,10 @@ interface DocPaginatorProps {
 
 const DocPaginator: React.FC<DocPaginatorProps> = ({ previous, next }) => {
   return (
-    <nav
+    <nav style={{
+  backgroundColor: "#1b192f"
+
+    }}
       className="pagination-nav docusaurus-mt-lg"
       aria-label={translate({
         id: 'theme.docs.paginator.navAriaLabel',

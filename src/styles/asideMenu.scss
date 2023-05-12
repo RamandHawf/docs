@@ -1,6 +1,6 @@
 .menu {
   // background-color: $light-bg;
-  background-color: #1b192f;
+  // background-color: #1b192f;
 
   border-right: 1px solid $border;
 
@@ -133,6 +133,7 @@ li[class*=' theme-doc-sidebar-item-'] {
   }
 
   .header-terra-link {
+    // color:white;
     font-size: 12px;
     color: $navbar-button-hover;
   }

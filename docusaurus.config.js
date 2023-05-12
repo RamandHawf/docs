@@ -8,7 +8,7 @@ module.exports = async function config() {
   const math = (await import('remark-math')).default;
   const katex = (await import('rehype-katex')).default;
   return {
-    title: 'Terra Docs',
+    title: 'Optimos Docs',
     tagline: 'The official docs for the Terra blockchain',
     url: 'https://docs.terra.money',
     baseUrl: '/',
@@ -105,7 +105,7 @@ module.exports = async function config() {
           title: '',
           logo: {
             alt: 'Terra Docs',
-            src: 'img/logo_light.svg',
+            src: 'img/BLK.png',
             srcDark: 'img/logo_dark.svg',
           },
           items: [

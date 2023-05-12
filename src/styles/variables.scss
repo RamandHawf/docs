@@ -1,23 +1,31 @@
 /* ===========LIGHT MODE GLOBAL VARIABLES=========== */
 
 :root {
+  --docsearch-primary-color:white;
+  --ifm-code-background:"#1b192f"
+  --ifm-color-emphasis-300:white;
+  --ifm-code-border-radius: 1px solid white;
   /* Right side menu colors */
-  --ifm-color-primary: #0759e7;
-  --ifm-color-content-secondary: #8b9cda;
+  --ifm-font-color-base:white;
+  --ifm-color-primary: blue;
+  
+  --ifm-color-content-secondary: #fff;
   /* Navbar background color */
-  --ifm-background-surface-color: #f9faff;
+  --ifm-background-surface-color: #1b192f;
   /* Hyperlink color */
-  --ifm-link-color: #0759e7;
+  --ifm-link-color: white;
   /* Heading color */
-  --ifm-heading-color: #1c1e21;
+  --ifm-heading-color: #fff;
   /* Color for active page name on track above heading */
-  --ifm-breadcrumb-color-active: #8b9cda;
+  --ifm-breadcrumb-color-active:  #1b192f;
   /* Footer background color */
-  --ifm-footer-background-color: #ffffff;
+  --ifm-footer-background-color: #1b192f;
   /* Footer text color */
-  --ifm-footer-color: #8b9cda;
+  --ifm-footer-color: white;
+  // background-color: #1b192f;
+
   /* Side menu caret style */
-  --ifm-menu-link-sublist-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24"><path fill="rgba(32, 67, 181, 1)" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg>');
+  --ifm-menu-link-sublist-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24"><path fill="	rgb(255,255,255)" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg>');
 }
 
 /* ============DARK MODE GLOBAL VARIABLES============ */
@@ -43,20 +51,20 @@
 
 /* ===============LIGHT MODE VARIABLES=============== */
 
-$light-primary: #2043b5;
-$light-secondary: #8b9cda;
-$light-bg: #f9faff;
+$light-primary:white;
+$light-secondary: white;
+$light-bg: #1b192f;
 $hover-shadow: #33333339;
 $border: #ebeff8;
-$hyperlink-color: #0759e7;
-$code-hike-hover: #8b9cda14;
-$code-hike-selected: #8b9cda28;
-$inactive-menu-item: #7788c6;
-$navbar-button: #ffffff;
-$navbar-button-hover: #f3f3f3;
-$doc-search-border: #cfd8ea;
-$prev-page-arrow: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 0L9.41 1.41L3.83 7H16V9H3.83L9.41 14.59L8 16L0 8L8 0Z' fill='%230759E7'/%3E%3C/svg%3E");
-$next-page-arrow: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z' fill='%230759E7'/%3E%3C/svg%3E");
+$hyperlink-color:white;
+$code-hike-hover:white;
+$code-hike-selected:  blue;
+$inactive-menu-item: #1b192f;
+$navbar-button: #fff;
+$navbar-button-hover: blue;
+$doc-search-border:  #1b192f;
+$prev-page-arrow: url("data:image/svg+xml,%3Csvg  width='36' height='16' viewBox='0 0 16 16' fill='rgb(255,255,255)' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 0L9.41 1.41L3.83 7H16V9H3.83L9.41 14.59L8 16L0 8L8 0Z' fill='%230759E7'/%3E%3C/svg%3E");
+$next-page-arrow: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='rgb(255,255,255)' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z' fill='%230759E7'/%3E%3C/svg%3E");
 
 /* ================DARK MODE VARIABLES================ */
 

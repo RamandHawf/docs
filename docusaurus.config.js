@@ -1,5 +1,6 @@
 // @ts-check
 const lightCodeTheme = require('./light.theme.js');
+
 const darkCodeTheme = require('./dark.theme.js');
 const theme = require('shiki/themes/material-default.json');
 const { remarkCodeHike } = require('@code-hike/mdx');
@@ -106,7 +107,7 @@ module.exports = async function config() {
           logo: {
             alt: 'Terra Docs',
             src: 'img/BLK.png',
-            srcDark: 'img/logo_dark.svg',
+            srcDark: 'img/BLK.png',
           },
           items: [
             {
